@@ -24,6 +24,6 @@ while n: #6 ;3 ;1 ;0--->break
     z.append(n%2) #6%2=0; 3%2=1; 1%2=1
     n=n//2  #3;1;0
 #print(z) #[0,1,1]
-#print(*z[::-1])---->Reversing teh string
+#print(*z[::-1])---->Reversing the string
 z=z[::-1] #[1,1,0]
 print(*z) #110
